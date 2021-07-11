@@ -1,6 +1,5 @@
 import '../styles/globals.css';
 import '../styles/form.css';
-import { storeWrapper } from '../store';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -10,4 +9,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default storeWrapper.withRedux(MyApp);
+export default MyApp
